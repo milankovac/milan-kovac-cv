@@ -4,6 +4,10 @@
 ================
 */
 * {
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 

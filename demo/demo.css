@@ -1,3 +1,7 @@
+body{
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
+}
 .demo-style-switch {
   position: fixed;
   z-index: 9999;

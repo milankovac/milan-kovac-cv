@@ -86,6 +86,8 @@ html {
   -webkit-font-smoothing: antialiased; }
 
 body {
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
   font-family: "roboto", sans-serif;
   font-size: 14px;
   font-style: none;
@@ -266,8 +268,8 @@ a {
   padding: 20px 0; }
   
   section {
-    //padding: 60px 0;
-    //padding-bottom: 30px;
+    padding: 60px 0;
+    padding-bottom: 30px;
 }
 
 /**
